@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suneo | Rainbow Portfolio</title>
+    <!-- Naka-link sa style.css mo sa folder -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION MENU (Requirement #5 sa Rubrik) -->
+    <nav class="navbar">
+        <div class="logo">Suneo<span class="rainbow-dot">.</span>dev</div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#skills">My Skills</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#projects">My Projects</a>
+            <a href="#contact">Contact Me</a>
+        </div>
+    </nav>
+
+    <!-- 1. HOME SECTION -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <!-- Isang Profile Picture mula sa folder mo -->
+            <div class="profile-wrapper">
+                <img src="profile.jpg" alt="Suneo Profile" class="profile-img">
+            </div>
+            <h1 class="rainbow-text">Hi, I'm Hanz Alvarez</h1>
+            <p class="tagline">"winner or lose, i do it with dignity"</p>
+            <p class="intro">Welcome to my basics website, I map, explore, and build vibrant web experiences.</p>
+        </div>
+    </section>
+
+    <!-- 2. ABOUT ME SECTION -->
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <p><strong>Biography:</strong> Hello! "Hi, Im Hanz Alvarez, If theres one thing that defines me, its my optimistic outlook on life, no matter the challenges, rn I am actively working toward my dream to be successful in life and starting my own business, my main goal in life is simple, to secure a bright future, make my family proud, and give back to those who have supported me along the way, I believe that dreaming is free, so I might as well dream big and work hard to make it a reality.</p>
+            <p><strong>Course/Program:</strong> ACT-2-A </p>
+            <p><strong>School:</strong> Datamex college of saint adeline </p>
+            <p><strong>Hobbies:</strong> basketball, biking, travelling, eating.</p>
+            <p><strong>Interests:</strong> any foods, explore, new things.</p>
+        </div>
+    </section>
+
+    <!-- 3. MY SKILLS SECTION (At least 5 skills) -->
+    <section id="skills" class="skills-section">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card skill-red">teamwork</div>
+            <div class="skill-card skill-orange">game strategies</div>
+            <div class="skill-card skill-yellow">cookings</div>
+            <div class="skill-card skill-green">adaptability</div>
+            <div class="skill-card skill-blue">customer service</div>
+        </div>
+    </section>
+
+    <!-- ACHIEVEMENTS & FUTURE GOALS SECTION (Required Content) -->
+    <section id="achievements" class="achievements-section">
+        <h2>Achievements & Goals</h2>
+        <div class="achievements-container">
+            <div class="achieve-card card-glow-purple">
+                <h3>🌈 Achievements</h3>
+                <ul>
+                    <li>Complete 80 hrs in OJT</li>
+                    <li>graduate in Shs</li>
+                    <li>Reached Mythical Immortal in MLBB</li>
+                </ul>
+            </div>
+            <div class="achieve-card card-glow-cyan">
+                <h3>🚀 Future Goals</h3>
+                <ul>
+                    <li>Graduated</li>
+                    <li>To become a businessman </li>
+                    <li>To become successful</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. MY PROJECTS SECTION (Dalawang Projects na lang) -->
+    <section id="projects" class="projects-section">
+        <h2>My Projects</h2>
+        <div class="projects-container">
+            
+            <!-- Project 1: Registration Form -->
+            <div class="project-card">
+                <div class="project-img-container">
+                    <img src="projectt.jpg" alt="Registration Form Project">
+                </div>
+                <div class="project-info">
+                    <h3>Registration Form Portal</h3>
+                    <p>A structured user registration platform showcasing pristine data form alignments, custom response styling, and input boxes.</p>
+                    <p class="tech-used">Technologies: HTML5 / CSS </p>
+                </div>
+            </div>
+
+            <!-- Project 2: Login Page -->
+            <div class="project-card card-reverse">
+                <div class="project-img-container">
+                    <img src="projecttt.jpg" alt="Login Interface Project">
+                </div>
+                <div class="project-info">
+                    <h3>Secure Login Gateway</h3>
+                    <p>A minimalist login system utilizing balanced layout properties, centered coordinate dimensions, and responsive element blocks.</p>
+                    <p class="tech-used">Technologies: HTML5 / CSS </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 7. CONTACT ME SECTION -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <p>Let's spin up something colorful together, essage data links active below.</p>
+        
+        <div class="contact-links">
+            <p><strong>Email:</strong> Hanzalvarez@gmail.com </p>
+            <p><strong>Social Networks:</strong> Hanz Alavarez</p>
+        </div>
+
+        <form class="contact-form" onsubmit="event.preventDefault();">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Transmission Payload" rows="5" required></textarea>
+            <button type="submit" class="rainbow-btn">Fire Transmission</button>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 Hanz.</p>
+    </footer>
+
+</body>
+</html>
